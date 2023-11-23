@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,300;0,400;0,500;1,100;1,400;1,500;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lobster+Two:ital@0;1&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.cavest-font {
+  font-family: "Caveat", cursive;
+}
+
+.indie-flower-font {
+  font-family: "Indie Flower", cursive;
+}
+
+.lobster-tow-font {
+  font-family: "Lobster Two", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.hidden {
+  overflow: hidden;
+}
+
+.category-card {
+  @apply h-[200px] rounded-2xl border shadow-xl flex flex-col justify-center items-center gap-3 hover:border-primary cursor-pointer;
+}
+
+.nav-item{
+  @apply  border-transparent border-b-4  hover:border-primary transition-all;
+}
+
+.active {
+  @apply  border-b-4 border-primary;
+}
+
+.default-btn{
+  @apply py-3 px-7 hover:shadow-lg hover:bg-dark transition-all bg-primary rounded-full text-white
+}
+
+.default-input{
+  @apply p-3 border-2 border-secondary w-full rounded-lg;
+}
+
+.modal-box {
+  @apply  h-screen md:h-fit overflow-auto relative bg-white w-full  py-10 px-5;
+}
+
+.modal-close-btn{
+  @apply absolute top-0 end-0 text-primary cursor-pointer hover:opacity-75 text-7xl;
+}

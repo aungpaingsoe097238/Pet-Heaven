@@ -1,0 +1,128 @@
+.home-hero {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background-image: url("/images/wallpapers/slider.jpg");
+  background-size: cover;
+  background-position: bottom;
+  background-position: center;
+  background-attachment: fixed;
+  position: relative;
+  z-index: 3;
+}
+
+.home-hero::before {
+  content: "";
+  background: #485563;
+  background: -webkit-linear-gradient(to right, #29323c, #485563);
+  background: linear-gradient(to right, #29323c, #485563);
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  opacity: 0.5;
+  z-index: -1;
+}
+
+.pet-hero {
+  display: flex;
+  width: 100%;
+  height: 40vh;
+  align-items: center;
+  background-image: url("/images/wallpapers/slider-2.jpg");
+  background-size: cover;
+  background-position: bottom;
+  background-position: center;
+  background-attachment: fixed;
+  position: relative;
+  z-index: 3;
+}
+
+.pet-hero::before {
+  content: "";
+  background: #485563;
+  background: -webkit-linear-gradient(to right, #29323c, #485563);
+  background: linear-gradient(to right, #29323c, #485563);
+  width: 100%;
+  height: 40vh;
+  position: absolute;
+  opacity: 0.5;
+  z-index: -1;
+}
+
+.contact-hero {
+  display: flex;
+  width: 100%;
+  height: 40vh;
+  align-items: center;
+  background-image: url("/images/wallpapers/slider-4.jpg");
+  background-position: top;
+  background-attachment: fixed;
+  position: relative;
+  z-index: 3;
+}
+
+.contact-hero::before {
+  content: "";
+  background: #485563;
+  background: -webkit-linear-gradient(to right, #29323c, #485563);
+  background: linear-gradient(to right, #29323c, #485563);
+  width: 100%;
+  height: 40vh;
+  position: absolute;
+  opacity: 0.5;
+  z-index: -1;
+}
+
+.about-hero {
+  display: flex;
+  width: 100%;
+  height: 40vh;
+  align-items: center;
+  background-image: url("/images/wallpapers/slider-6.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+  z-index: 3;
+}
+
+.about-hero::before {
+  content: "";
+  background: #485563;
+  background: -webkit-linear-gradient(to right, #29323c, #485563);
+  background: linear-gradient(to right, #29323c, #485563);
+  width: 100%;
+  height: 40vh;
+  position: absolute;
+  opacity: 0.5;
+  z-index: -1;
+}
+
+.modal {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  background-position: bottom;
+  background-position: center;
+  position: relative;
+  background-position: top;
+  z-index: 10;
+  position: fixed;
+  background-attachment: fixed;
+}
+
+.modal::before {
+  content: "";
+  background-color: #000;
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  opacity: 0.5;
+  z-index: -1;
+}

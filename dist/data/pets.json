@@ -1,0 +1,81 @@
+[
+    {
+        "id": 1,
+        "name": "Kevin",
+        "image": "/images/pets/pet01.webp",
+        "description": "He loves people and loves the attention. likes to go out for long walks and is good on the lead. Rex is great!",
+        "category": "Dog",
+        "age" : "5 months",
+        "weight" : "3.4 kg"
+    },
+    {
+        "id": 2,
+        "name": "Charlie",
+        "image": "/images/pets/pet02.webp",
+        "description": "Charlie is good on the lead and loves to go out for walks. He needs a leader who teaches him the basic rules.",
+        "category": "Dog",
+        "age" : "13 months",
+        "weight" : "3.4 kg",
+        "gender" : "Female"
+    },
+    {
+        "id": 3,
+        "name": "Denise",
+        "image": "/images/pets/pet03.webp",
+        "description": "She is one of the most loving dogs, when she see’s you she comes over & hugs you. A total compasionate animal.",
+        "category": "Dog",
+        "age" : "19 months",
+        "weight" : "6 kg",
+        "gender" : "Male"
+    },
+    {
+        "id": 4,
+        "name": "Jamie",
+        "image": "/images/pets/pet04.webp",
+        "description": "This very kind dog is Jamie. He was left at the shelter gates. He is 5 years and 7 months old. He is very friendly.",
+        "category": "Dog",
+        "age" : "5 months",
+        "weight" : "4.5 kg",
+        "gender" : "Male"
+    },
+    {
+        "id": 5,
+        "name": "Kat Kat",
+        "image": "/images/pets/pet05.jpg",
+        "description": "This very kind dog is Jamie. He was left at the shelter gates. He is 5 years and 7 months old. He is very friendly.",
+        "category": "Cat",
+        "age" : "5 months",
+        "weight" : "4.5 kg",
+        "gender" : "Female"
+    },
+    {
+        "id": 6,
+        "name": "Olive",
+        "image": "/images/pets/pet06.jpg",
+        "description": "This very kind dog is Jamie. He was left at the shelter gates. He is 5 years and 7 months old. He is very friendly.",
+        "category": "Cat",
+        "age" : "5 months",
+        "weight" : "4.5 kg",
+        "gender" : "Female"
+    },
+    {
+        "id": 7,
+        "name": "Kolar",
+        "image": "/images/pets/pet07.jpg",
+        "description": "She is one of the most loving dogs, when she see’s you she comes over & hugs you. A total compasionate animal..",
+        "category": "Dog",
+        "age" : "5 months",
+        "weight" : "4.5 kg",
+        "gender" : "Female"
+    },
+    {
+        "id": 8,
+        "name": "Servage",
+        "image": "/images/pets/pet08.jpg",
+        "description": "Very friendly with male & female dogs. She has seen cats & didn’t concerned with them, so she can live with other animals..",
+        "category": "Dog",
+        "age" : "5 months",
+        "weight" : "4.5 kg",
+        "gender" : "Female"
+    }
+]
