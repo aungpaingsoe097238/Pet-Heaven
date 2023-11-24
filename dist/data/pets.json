@@ -77,5 +77,15 @@
         "age" : "5 months",
         "weight" : "4.5 kg",
         "gender" : "Female"
+    },
+    {
+        "id": 9,
+        "name": "Lily",
+        "image": "/images/pets/pet09.jpeg",
+        "description": "Very friendly with male & female dogs. She has seen cats & didn’t concerned with them, so she can live with other animals..",
+        "category": "Cat",
+        "age" : "2 months",
+        "weight" : "4.5 kg",
+        "gender" : "Female"        
     }
 ]
