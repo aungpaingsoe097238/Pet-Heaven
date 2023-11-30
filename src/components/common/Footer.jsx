@@ -110,7 +110,7 @@ const Footer = () => {
       </div>
       <div className=' mx-auto py-5 ps-3 bg-dark text-white '>
         <div className=' w-[95%] md:w-[80%] mx-auto text-center '>
-          Copyright © All rights reserved by : <span className=' indie-flower-font  font-bold text-primary cursor-pointer '>Thandar Khaing</span>
+          Copyright © All rights reserved by : <span className=' indie-flower-font  font-bold text-primary cursor-pointer '>Alpha</span>
         </div>
       </div>
     </>
