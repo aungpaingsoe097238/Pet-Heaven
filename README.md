@@ -1,8 +1,42 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Pet Adoption
 
-Currently, two official plugins are available:
+Pet adoption website.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+## Demo Link
+
+https://pets-dun-nine.vercel.app/
+
+## Tech Stack
+
+**Client:** JavaScript, React, Redux, TailwindCSS
+
+
+
+
+## Features
+
+- SignIn, SignUp Form
+- Pets List
+- Pet Detail
+- Adopt Form 
+- Donate Form
+- Responsive Device
+
+
+## Running Tests
+
+To run tests, run the following command
+
+
+Installation Packages
+```bash
+  npm install 
+```
+Running With Development Server 
+```bash
+  npm run dev  
+```
+
+
